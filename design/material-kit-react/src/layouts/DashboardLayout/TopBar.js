@@ -24,6 +24,12 @@ const useStyles = makeStyles(() => ({
   }
 }));
 
+const hstyle = {
+  color: 'black',
+  backgroundColor: 'none',
+  fontFamily: 'Arial'
+};
+
 const TopBar = ({
   className,
   onMobileNavOpen,
@@ -42,6 +48,7 @@ const TopBar = ({
         <RouterLink to="/">
           <Logo />
         </RouterLink>
+        <h1 style={hstyle}>ACTS</h1>
         <Box flexGrow={1} />
         <Hidden mdDown>
           <IconButton color="inherit">

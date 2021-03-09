@@ -18,8 +18,8 @@ const user = {
   avatar: '/static/images/avatars/user.png',
   city: 'Los Angeles',
   country: 'USA',
-  jobTitle: 'Senior Developer',
-  name: 'Katarina Smith',
+  jobTitle: 'Administrator',
+  name: 'Admin',
   timezone: 'GTM-7'
 };
 

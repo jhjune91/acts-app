@@ -1,8 +1,6 @@
 {
-  "name": "react-material-dashboard",
-  "author": "DeviasIO",
-  "licence": "MIT",
-  "version": "1.0.0",
+  "name": "acts-client",
+  "version": "0.1.0",
   "private": false,
   "scripts": {
     "start": "set PORT=31059 && react-scripts start",
